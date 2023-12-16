@@ -15,14 +15,14 @@ function onYouTubeIframeAPIReady() {
     });
 }
 
-function loadtheVideo() {
+function loadVideo() {
     const videoId = document.getElementById('videoIdInput').value;
     if (videoId.trim() !== '') {
         if (player) {
             player.loadVideoById(videoId);
         } else {
             setTimeout(() => {
-                loadtheVideo();
+                loadVideo();
             }, 1000);
         }
     } else {

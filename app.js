@@ -10,7 +10,7 @@ function onYouTubeIframeAPIReady() {
             'controls': 1,
             'showinfo': 0,
             'rel': 0,
-            'key': 'AIzaSyBRRXSAz7VhdCygEySs5wDIr55Si8L9_Z0',
+            'key': 'AIzaSyDmdyBSh9N4y8PaaDY_huVeRLXfOIaH9UA',
         },
     });
 }
